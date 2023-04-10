@@ -1,0 +1,71 @@
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+body {
+    /* background-color: aqua; */
+height: 97vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.inmain2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(26, 36, 94);;
+    font-family: 'Noto Serif', serif;
+}
+
+.textt {
+font-size: 50px;
+font-weight: 600;
+}
+
+.clock {
+border: 3px solid rgb(49, 50, 49);
+/* background: rgba(0, 0, 0, 0.5); */
+margin: 25px;
+width: 100px;
+backdrop-filter: blur(10px);
+border-radius: 50px;
+/* display: inline-flex; */
+text-align: center;
+/* align-items: center; */
+}
+
+.date {
+height: 25px;
+width: 150px;
+}
+
+#date {
+/* text-align: center; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.time {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+width: 100px;
+/* text-align: center; */
+}
